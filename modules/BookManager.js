@@ -27,7 +27,6 @@ export class BookManager {
     this.hideAllContent();
   }
 
-  // ... Rest of the methods (handleFormSubmit, addBook, removeBook, displayBooks, hideAllContent, showContent)
   // Handle form submission
   handleFormSubmit(e) {
     e.preventDefault();
@@ -90,5 +89,3 @@ export class BookManager {
     contentSection.style.display = 'block';
   }
 }
-
-const bookManagerDisplay = new BookManager();
