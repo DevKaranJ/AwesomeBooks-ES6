@@ -24,7 +24,7 @@ export class BookManager {
       this.showContent(this.contactContent);
     });
 
-    this.hideAllContent();
+    this.showAllContent();
   }
 
   // Handle form submission
@@ -49,14 +49,14 @@ export class BookManager {
     };
 
     this.books.push(newBook);
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem(variables.booksKey, JSON.stringify(this.books));
     this.displayBooks();
   }
 
   // Function to remove a book
   removeBook(index) {
     this.books.splice(index, 1);
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem(variables.booksKey, JSON.stringify(this.books));
     this.displayBooks();
   }
 
@@ -78,14 +78,20 @@ export class BookManager {
     });
   }
 
-  hideAllContent() {
-    this.listContent.style.display = 'none';
-    this.addNewContent.style.display = 'none';
+  showAllContent() {
+    this.listContent.style.display = 'block';
+    this.addNewContent.style.display = 'block';
     this.contactContent.style.display = 'none';
   }
 
   showContent(contentSection) {
     this.hideAllContent();
     contentSection.style.display = 'block';
+  }
+
+  hideAllContent() {
+    this.listContent.style.display = 'none';
+    this.addNewContent.style.display = 'none';
+    this.contactContent.style.display = 'none';
   }
 }
