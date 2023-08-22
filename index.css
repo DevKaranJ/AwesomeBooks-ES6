@@ -198,3 +198,15 @@ footer {
 .contact {
   display: none;
 }
+
+#current-time-zone {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  justify-items: flex-end;
+  position: absolute;
+  left: 75%;
+  top: 6%;
+}
