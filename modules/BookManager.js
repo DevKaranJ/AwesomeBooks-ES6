@@ -80,7 +80,7 @@ export class BookManager {
 
   showAllContent() {
     this.listContent.style.display = 'block';
-    this.addNewContent.style.display = 'block';
+    this.addNewContent.style.display = 'none';
     this.contactContent.style.display = 'none';
   }
 

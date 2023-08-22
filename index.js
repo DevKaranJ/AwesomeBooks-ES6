@@ -1,5 +1,5 @@
 import { BookManager } from './modules/BookManager.js';
-import { DateTime } from './luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 const bookManagerDisplay = new BookManager();
 bookManagerDisplay.displayBooks();
