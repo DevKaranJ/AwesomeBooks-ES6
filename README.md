@@ -123,7 +123,7 @@ Run it in your local server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/DevKaranJ/AwesomeBooks-ES6/issues](../../issues/).
+Feel free to check the (https://github.com/DevKaranJ/AwesomeBooks-ES6/issues).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
