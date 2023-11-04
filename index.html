@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <title>Awesome books</title>
+</head>
+<body>
+    <header>
+        <section class="heading">
+            <h1>Awesome Books</h1>
+        </section>
+        <nav>
+            <ul class="nav-bar">
+                <li class="item1"><a href="#">List</a></li>
+                <li class="item2"><a href="#">Add New</a></li>
+                <li class="item3"><a href="#">Contact</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <div id="current-time-zone">
+        <div id="date-time"></div>
+      </div>  
+    <main class="main-container">
+        <section class="content" id="listContent">
+            <h2>List Content</h2>
+            <div class="book-content">
+                <ul id="book-list" class="book-list"></ul>
+            </div>
+        </section>
+        <section class="content" id="addNewContent">
+            <h2>Add New Content</h2>
+            <form id="books" class="booksSubmission">
+                <input type="text" id="title" placeholder="Title" required><br>
+                <input type="text" id="author" placeholder="Author" required><br>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+        <section class="contact" id="contactContent">
+            <h2>Contact information</h2>
+            <p>Do you have any questions or you just want to say "Hello"?
+              <br> you can reach out to us!</p>
+              <div class="contact-details">
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 - 2023 Karan and Richard - All Rights Reserved.</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
